@@ -1,0 +1,36 @@
+<link rel="import" href="../polymer/polymer-element.html">
+
+<dom-module id="pokemon-tcg-card">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]!</h2>
+  </template>
+
+  <script>
+    /**
+     * `pokemon-tcg-card`
+     * Displays a Pokémon TCG card&#39;s information
+     *
+     * @customElement
+     * @polymer
+     * @demo demo/index.html
+     */
+    class PokemonTcgCard extends Polymer.Element {
+      static get is() { return 'pokemon-tcg-card'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'pokemon-tcg-card'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(PokemonTcgCard.is, PokemonTcgCard);
+  </script>
+</dom-module>
