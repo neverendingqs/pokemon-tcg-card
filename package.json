@@ -1,0 +1,23 @@
+{
+  "name": "pokemon-tcg-card",
+  "version": "0.0.1",
+  "description": "Polymer element that displays a Pokémon TCG card's information.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neverendingqs/pokemon-tcg-card.git"
+  },
+  "keywords": [
+    "polymer-2.0",
+    "pokemon-tcg"
+  ],
+  "author": "neverendingqs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neverendingqs/pokemon-tcg-card/issues"
+  },
+  "homepage": "https://github.com/neverendingqs/pokemon-tcg-card#readme"
+}
