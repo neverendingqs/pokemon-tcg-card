@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "bower": "bower",
+    "init": "bower -- install",
     "lint": "polymer lint",
     "polymer": "polymer",
     "serve": "polymer serve",
